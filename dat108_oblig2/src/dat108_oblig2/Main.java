@@ -28,6 +28,17 @@ public class Main {
 		System.out.println("	2 servitører: " + Arrays.toString(servitorer));
 		System.out.println("	Kapasiteten til brettet er 4 hamburgere.");
 		System.out.println("Vi starter...");
+		System.out.println("Vi starter...");
+		System.out.println("Vi starter...");
+		System.out.println("Vi starter...");
+		System.out.println("Vi starter...");
+		System.out.println("Vi starter...");
+		System.out.println("Vi starter...");
+		System.out.println("Vi starter...");
+		System.out.println("Vi starter...");
+		System.out.println("Vi starter...");
+		System.out.println("Vi starter...");
+		System.out.println("Vi starter...");
 	}
 } 
 
