@@ -30,3 +30,5 @@ public class Main {
 		System.out.println("Vi starter...");
 	}
 } 
+
+//This is a test to see if git commands work
