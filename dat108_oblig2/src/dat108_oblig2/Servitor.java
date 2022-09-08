@@ -9,4 +9,10 @@ public class Servitor extends Thread {
 		this.brett = brett;
 		this.navn = navn;
 	}
+	
+	public void run() {
+		if (brett.size()== 0)
+		brett.utKoe();
+		System.out.println();
+	}
 }

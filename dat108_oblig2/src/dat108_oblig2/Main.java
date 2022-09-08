@@ -6,19 +6,20 @@ public class Main {
 
 	public static void main(String... blablabla) { 
 		   
-		  final String[] kokker = {"Anne", "Erik", "Knut"}; 
-		  final String[] servitorer = {"Mia", "Per"}; 
+		  final String[] kokker = {"Sivert", "Bjorn-Egil", "Bjorn-Sigurd"}; 
+		  final String[] servitorer = {"Anders", "Andreas"}; 
 		  final int KAPASITET = 4; 
 		 
 		  skrivUtHeader(kokker, servitorer, KAPASITET);
 		   
 		  Brett brett = new Brett(KAPASITET);
 		   
-		  for (String navn : kokker) { 
-			  new Kokk(brett, navn).start(); 
+		  for (String navn : kokker) {
+			  new Kokk(brett, navn).start();
 		  }
-		  for (String navn : servitorer) { 
-			  new Servitor(brett, navn).start(); 
+		  
+		  for (String navn : servitorer) {
+			  new Servitor(brett, navn).start();
 		  }
 	}
 	
@@ -30,6 +31,4 @@ public class Main {
 		System.out.println("Vi starter...");
 
 	}
-} 
-
-//This is a test to see if git commands work
+}
