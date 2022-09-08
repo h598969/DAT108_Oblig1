@@ -11,8 +11,13 @@ public class Servitor extends Thread {
 	}
 	
 	public void run() {
-		if (brett.size()== 0)
-		brett.utKoe();
-		System.out.println();
+		if (brett.size()== 0) {
+			wait {
+				
+			}
+			brett.utKoe();
+			System.out.println();
+		}
+
 	}
 }

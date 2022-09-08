@@ -1,0 +1,11 @@
+[1mdiff --git a/dat108_oblig2/src/dat108_oblig2/Main.java b/dat108_oblig2/src/dat108_oblig2/Main.java[m
+[1mindex f659565..6fb5b67 100644[m
+[1m--- a/dat108_oblig2/src/dat108_oblig2/Main.java[m
+[1m+++ b/dat108_oblig2/src/dat108_oblig2/Main.java[m
+[36m@@ -32,3 +32,5 @@[m [mpublic class Main {[m
+ } [m
+ [m
+ //This is a test to see if git commands work[m
+[32m+[m
+[32m+[m[32m//Test git command in Eclipse[m
+\ No newline at end of file[m
