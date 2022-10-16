@@ -4,7 +4,7 @@ import java.util.concurrent.atomic.AtomicInteger;
 
 public class Hamburger {
 	
-	private static AtomicInteger nesteID = new AtomicInteger(0);
+	private static AtomicInteger nesteID = new AtomicInteger(1);
 	private int id;
 	
 	public Hamburger() {

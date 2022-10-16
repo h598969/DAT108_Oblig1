@@ -21,6 +21,7 @@ public class Main {
 		  for (String navn : servitorer) {
 			  new Servitor(brett, navn).start();
 		  }
+		  
 	}
 	
 	public static void skrivUtHeader (String[]kokker, String[]servitorer, int kapasitet) {
